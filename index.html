@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>  
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Oswald:wght@200&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Estonia', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+.item .container {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 60px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+
+  width: 100%;
+    padding: 0;
+    left: 0;
+} 
+.item .container p{
+    margin: 0;
+    padding: 10px;
+}
+
+.show-description p {
+  height: 150px;
+} 
+.show-description small {
+  opacity: 1;
+} 
+.first{
+  background-image: url("//Users/VinciBhar/Desktop/Project3/34-735-406-V06.jpeg") } 
+.second{
+  background-image: url("//Users/VinciBhar/Desktop/Project3/kZSc9me9Gfwu7rSuU4we77-1200-80.jpeg") }  
+.third{ 
+    background-image: url("//Users/VinciBhar/Desktop/Project3/Ultrathin_pcs.jpeg");
+}
+.price {
+  float: right;
+}
+.item{
+    cursor: pointer;
+}
+.item small{
+      display: none;
+  }
+  .item:hover small{
+      display: block !important;
+  }
+  .item:hover .container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+  }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+  </style>
+
+ </head>  
+
+ <body> 
+    <h1>Smart laptops</h1> 
+    <h2>A new kind of way to do stuff!</h2> 
+    <div class="item first">
+        <div class="container">
+    <p>Thin-line <span class="price">$150</span><br />   
+     <small> A slim 13 inchlaptop for your service, that can fit in anywhere. 
+         It's sleek, provides clear graphics, built in webcam, light weight, built in software tools.
+         Contains a long lasting battery that's also 250GB of RAM. </small></p> 
+        </div>
+     </div>
+
+     <div class="item second">
+        <div class="container">
+        <p>The Boss <span class="price">$250</span><br />   
+         <small>  This laptop is 13.5 inches, bold, provides faster service, it's level up from the Thin-line. 
+             it has all the features with upgraded versions. It can handle multiple tasks at once. 
+             It contains storage space of up to 300GB of RAM.
+         </small></p> 
+        </div> 
+    </div> 
+        
+         <div class="item third" >
+            <div class="container">
+            <p>Thin-pro <span class="price">$350</span><br />   
+             <small> This is an advanced level computer, with high performances in all features.
+                 Higher speed with built in toools that will help assess your workload needs. The pro gives a 
+                premieum feature it's own special kind of software. It has 350 GB SSD </small></p> 
+             </div>
+            </div>
+
+    </div> 
+
+
+
+    <script>
+     /*$('div').on('click', function() {
+    $(this).toggleClass('show-description');
+  });*/
+/*
+  document.getElementsByClassName('third').addEventListener("mouseover",myFunction());
+  function myFunction()
+{
+  
+var text = "This is an advanced level computer, with high performances in all features Higher speed with built in toools that will help assess your workload needs. The pro gives a  premieum feature it's own special kind of software. It has 350 GB SSD";
+document.getElementsByClassName("third").innerHTML=text;
+  console.log("text");
+}*/
+      </script>
+</body>
+
+
+
+
+
+
